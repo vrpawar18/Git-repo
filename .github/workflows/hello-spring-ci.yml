@@ -33,7 +33,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Build and Test
-        working-directory: docker/app1-hello/springboot/hello-spring/
+        working-directory: DevOps-Masterclass/docker/app1-hello/springboot/hello-spring
         run: mvn -B clean verify
        
       - name: create report
