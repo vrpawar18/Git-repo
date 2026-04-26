@@ -40,4 +40,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
             name: test-reports
-            path: docker/app1-hello/springboot/hello-spring/target/surefire-reports/
+            path: DevOps-Masterclass/docker/app1-hello/springboot/hello-spring/target/surefire-reports
